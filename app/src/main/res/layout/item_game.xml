@@ -60,10 +60,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Genre"
-                        android:textColor="@color/white"
+                        android:textColor="@color/md_theme_onTertiary"
                         android:clickable="false"
                         app:ensureMinTouchTargetSize="false"
-                        app:chipBackgroundColor="@color/design_default_color_primary"/>
+                        app:chipBackgroundColor="@color/md_theme_tertiary"/>
 
                     <Space
                         android:layout_width="0dp"
@@ -75,7 +75,7 @@
                         android:layout_width="32dp"
                         android:layout_height="32dp"
                         android:src="@drawable/ic_platform_windows_desktop"
-                        app:tint="@color/design_default_color_primary" />
+                        app:tint="@color/md_theme_primary" />
 
                 </LinearLayout>
 
